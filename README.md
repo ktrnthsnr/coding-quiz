@@ -24,4 +24,4 @@ ktrnthsnr
 
 ## Screenshot of the site   
 
-![Mockup](./assets/images/mockup.JPG "Coding-Quiz")
+![Mockup](./assets/img/mockup.JPG "Coding-Quiz")
