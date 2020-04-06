@@ -8,18 +8,19 @@
     <title>Coding Quiz All Done</title>
   </head>
   <body>
-      <header>
+      <header2>
         <h3> <a href="./allDone.html">Link with high scores</a></h3>
         <h4 id="countdown">Timer countdown: </h4>
-      </header>
+      </header2>
 
-      <div class="clearfix2">
-            <div class="card2">
+      <!-- input initials -->
+      <div class="clearfix">
+            <div class="card">
                 <h2>All done!</h2>
 
                 <form method="POST">
                     <div class="input-group">
-                        <label for="initials">Enter initials:</label>
+                        <label for="initials">Enter Initials:</label>
                         <input type="text" name="initials" id="initials" placeholder="enter your initials" />
                     </div>
                     
@@ -29,17 +30,23 @@
                 </form>
             </div>
 
-            <div class="card2">
+            <div class="card">
                 <h2>High scores</h2>
-                <p><strong>Initials:</strong> <span id="user-initials"></span></p>
-                    <!-- enter results here in an ordered list. -->
-            </div>
-                            
-                        <!-- BUTTTONS -->
-                        <div class="btn-group2"></div>
-                           <button onclick="goBack()">Go Back</button>
-                           <button onclick="clearHighScores()">Clear high scores</button>
-                        </div>             
+                <p><strong>Scores:</strong> <span id="user-initials"></span></p>
+                <!-- enter initials entered before in an ordered list. -->
+                <p id="inputInitials"></p>
+
+                <label for="initials">Initials and time</label>
+                <input type="text" name="initials" id="initials" placeholder="Select to view scores." />
+                
+            </div>                         
+            
+
+              <!-- GoBack and Clear high scores BUTTTONS -->
+              <div class="btn-group"></div>
+                  <button onclick="goBack()">Go Back</button>
+                  <button onclick="clearHighScores()">Clear high scores</button>
+              </div>             
         </div>
 
 

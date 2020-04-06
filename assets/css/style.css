@@ -31,7 +31,11 @@ h4 {
     text-align: right;
   }
 
-  header h3 p {
+.header2 {
+    margin: 0 0 0 0;
+}
+
+header h3 p {
     font-size: 15px;
 }
 
@@ -70,7 +74,7 @@ input {
   background-color: #f1f3f4;
   border-radius: 2px;
   border-width: 0;
-  color: #5f6368;
+  color: black;
   font-size: 1em;
   height: 45px;
   line-height: 20px;
@@ -131,7 +135,8 @@ input:hover {
   }
   
   #msg.error {
-    color: #eceff1;
+    color: rgb(184, 176, 176);
+    font-weight: lighter;
   }
 
 .clearfix::after {
